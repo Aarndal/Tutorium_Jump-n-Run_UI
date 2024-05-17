@@ -4,7 +4,10 @@ using UnityEngine.SceneManagement;
 public enum MyScenes
 {
     InitScene,
-    MainMenu
+    MainMenu,
+    GameScene,
+    UIIngame,
+    Player
 }
 public class SceneLoader : MonoBehaviour
 {
