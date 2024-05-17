@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 658614322}
   - component: {fileID: 658614321}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Festzelt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -677,7 +677,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 658614322}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 864021412}
+        m_TargetAssemblyTypeName: MainMenuButtonMapping, Assembly-CSharp
+        m_MethodName: OnFestzeltPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &658614322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -928,6 +940,7 @@ GameObject:
   - component: {fileID: 864021410}
   - component: {fileID: 864021409}
   - component: {fileID: 864021408}
+  - component: {fileID: 864021412}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1024,6 +1037,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &864021412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864021407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07194de7dc9e4404fa6e6a40ce0a436b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &935173969
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,7 +1062,7 @@ GameObject:
   - component: {fileID: 935173972}
   - component: {fileID: 935173971}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1106,7 +1131,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 935173972}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 864021412}
+        m_TargetAssemblyTypeName: MainMenuButtonMapping, Assembly-CSharp
+        m_MethodName: OnSettingsPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &935173972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1158,7 +1195,7 @@ GameObject:
   - component: {fileID: 954838190}
   - component: {fileID: 954838189}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Senfmuehle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1227,7 +1264,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 954838190}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 864021412}
+        m_TargetAssemblyTypeName: MainMenuButtonMapping, Assembly-CSharp
+        m_MethodName: OnSenfmuehlePress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &954838190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1318,7 +1367,7 @@ GameObject:
   - component: {fileID: 1405449720}
   - component: {fileID: 1405449719}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1387,7 +1436,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1405449720}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 864021412}
+        m_TargetAssemblyTypeName: MainMenuButtonMapping, Assembly-CSharp
+        m_MethodName: OnQuitPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1405449720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1439,7 +1500,7 @@ GameObject:
   - component: {fileID: 1441852582}
   - component: {fileID: 1441852581}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Weisswurscht
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1508,7 +1569,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1441852582}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 864021412}
+        m_TargetAssemblyTypeName: MainMenuButtonMapping, Assembly-CSharp
+        m_MethodName: OnWeisswurschtFabrikPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1441852582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1920,7 +1993,7 @@ GameObject:
   - component: {fileID: 1767122648}
   - component: {fileID: 1767122647}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Ads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1989,7 +2062,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1767122648}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 864021412}
+        m_TargetAssemblyTypeName: MainMenuButtonMapping, Assembly-CSharp
+        m_MethodName: OnRemoveAdsPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1767122648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2041,7 +2126,7 @@ GameObject:
   - component: {fileID: 1815352451}
   - component: {fileID: 1815352450}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Brezn Paradies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2110,7 +2195,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1815352451}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 864021412}
+        m_TargetAssemblyTypeName: MainMenuButtonMapping, Assembly-CSharp
+        m_MethodName: OnBreznParadiesPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1815352451
 MonoBehaviour:
   m_ObjectHideFlags: 0
