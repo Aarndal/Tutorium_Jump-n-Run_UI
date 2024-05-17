@@ -7,17 +7,20 @@ public class MainMenuButtonMapping : MonoBehaviour
 {
     public void OnSettingsPress()
     {
-        SceneLoader.Instance.LoadScene(MyScenes.MainMenu);
+        Debug.Log("Open Settings");
     }
 
     public void OnQuitPress()
     {
+#if UNITY_EDITOR
         EditorApplication.ExitPlaymode();
+#endif
+        Application.Quit();
     }
 
     public void OnBreznParadiesPress()
     {
-        Debug.Log("Level: Franzls Brezn Paradies wurde ausgewählt!");
+        SceneLoader.Instance.LoadScene(MyScenes.GameScene);
     }
 
     public void OnWeisswurschtFabrikPress()
